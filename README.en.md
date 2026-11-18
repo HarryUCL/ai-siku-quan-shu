@@ -49,7 +49,7 @@ The book is not a single model generation. It was written by division, cross-rev
 | Division | Lead compiler | Scope |
 |---|---|---|
 | **Jing · Yuan Dao** | **Feifei Laoshi** | Foundations of AI science, philosophical axioms, cognitive principles. Volume 1 establishes the book's position: intelligence as the compression and prediction of a world model. |
-| **Shi · Jian Wang** | **Shi division editing group** (no individual name in the volume headers) | History and national lineages; three threads run in parallel: instruments, symbols and boundaries. |
+| **Shi · Jian Wang** | **Tang Zinian, Chief Compiler** | History and national lineages; three threads run in parallel: instruments, symbols and boundaries. |
 | **Zi · Shu Fa** | **Tang Haoyun (Haoyun Xuezhang)** | The technical system in nine stages — formalization, linear models, trees, kernels, probability, clustering, ensembles, engineering and limits. |
 | **Ji · Zhi Yong** | **Xiaofei Xuejie** | Industry deployment with traceable cases only; background, decision chain, technical solution, data and source material — missing any one, the case is downgraded. |
 | **General outline** | **Tang Zinian, Chief Compiler** | Full four-treasury table of contents and the cross-reference ledger (167 cross-references, 48/48 volume coverage, 145/145 target sections verified). |
