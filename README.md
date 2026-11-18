@@ -8,7 +8,7 @@
 - `assets/corpus/vol-001.md` … `vol-048.md`：48 卷完整正文（经 12 / 史 12 / 子 12 / 集 12）
 - `references/catalog.md`：四部 48 卷、约 2571 节完整目录
 - `scripts/search.py`：零依赖中文全文检索（AND 多词、按部/卷过滤、JSON 输出）
-- `assets/reader/`：离线 WEB 阅读器，`index.html` 双击即用（全文内嵌、目录/检索/批注/夜读）
+- `assets/reader/`：离线 WEB 阅读器，`index.html` 双击即用（全文分 4 片内嵌、目录/检索/批注/夜读）
 
 ## 安装
 

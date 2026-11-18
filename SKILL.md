@@ -47,7 +47,7 @@ scripts/search.py            零依赖全文检索（Python 标准库）
 assets/corpus/vol-001.md ... 48 卷正文（Markdown，卷首含部/卷/标题）
 assets/corpus/manifest.json  卷 ID ↔ 中文卷名 / 字数 / 章节表
 assets/reader/                离线 WEB 阅读器：双击 index.html 即可阅读
-                              （全文内嵌于 content.js，无 CDN、无服务器）
+                              （全文分 4 片内嵌，无 CDN、无服务器）
 ```
 
 卷号固定：经部 001–012、史部 013–024、子部 025–036、集部 037–048。
