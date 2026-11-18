@@ -25,11 +25,18 @@ The book makes a point of being checkable: major historical facts require author
 
 ## About the Initiator — Tang Haoyun (唐浩云)
 
-**Tang Haoyun**, known in the community as **Haoyun Xuezhang ("Senior Haoyun")**, is the lead compiler of the **Zi (techniques) division** of this encyclopedia and one of the public learning IP figures of the Xuelai Xuequ Learning Society (学来学去学习社).
+**Tang Haoyun**, known in the community as **Haoyun Xuezhang ("Senior Haoyun")**, wears several hats in this project: **co-founder of the Xuelai Xuequ Learning Society (学来学去学习社)**, **founder of Shanghai Qiaoweilai Artificial Intelligence Technology Co., Ltd.** (the developer of this book), **technical lead of Feifei Banban (菲菲学伴, a K-12 AI study-companion program)**, and the **lead compiler of the Zi (techniques) division** of this encyclopedia.
 
-**Background and education.** According to the society's own public profiles, he is a science undergraduate at **University College London (UCL)** in London — the profiles from 2025 described him as a third-year student reading sciences. His public remit covers mathematics, physics, chemistry and programming. In those profiles he describes UCL's science teaching as lecture- and lab-heavy (roughly 20 hours of lectures and 10 hours of lab work per week in his account), with labs accounting for about 30% of assessment, a cohort drawn from around 150 countries, and an emphasis on independent thinking and application over memorization. He credits his own learning to deliberate practice and structured review: the Pomodoro technique, the Feynman technique (explaining a concept until it can be taught clearly), and a weekly review of what was mastered, what remains weak, and what to focus on next. *(These details reflect the society's published self-descriptions at the time; they are not an independently verified academic record.)*
+**Education.** He is a **Physics undergraduate at University College London (UCL), class of 2023, graduating in 2026**. In the society's public profiles he describes UCL's science teaching as lecture- and lab-heavy (roughly 20 hours of lectures and 10 hours of lab work per week in his account), with labs accounting for about 30% of assessment, a cohort drawn from around 150 countries, and an emphasis on independent thinking and application over memorization. He credits his own learning to deliberate practice and structured review: the Pomodoro technique, the Feynman technique (explaining a concept until it can be taught clearly), and a weekly review of what was mastered, what remains weak, and what to focus on next. *(Teaching and study-method details reflect the society's published self-descriptions; the degree, cohort and graduation year above are provided by the project team.)*
 
-**Community work.** In March 2025 he joined an online session for the "Exploring Artificial Intelligence" class meeting at Yanshan Middle School, sharing how AI is used in education with students in the classroom. Alongside Feifei Laoshi and Xiaofei Xuejie, he is one of the three learning-IP figures through which the society publishes learning methods and mentoring content.
+**Roles in the ecosystem.**
+
+- **Xuelai Xuequ Learning Society** — co-founder; one of the three public learning-IP figures (alongside Feifei Laoshi and Xiaofei Xuejie) through which the society publishes learning methods and mentoring content.
+- **Shanghai Qiaoweilai Artificial Intelligence Technology Co., Ltd.** — founder; the company develops and releases this encyclopedia and its companion apps.
+- **Feifei Banban (菲菲学伴)** — technical lead of this K-12 AI study-companion program, applying the society's "every learner a study companion" mission in primary and secondary education.
+- **This encyclopedia** — initiator of the book and lead compiler of the Zi division.
+
+**Community work.** In March 2025 he joined an online session for the "Exploring Artificial Intelligence" class meeting at Yanshan Middle School, sharing how AI is used in education with students in the classroom.
 
 **Why he started this project.** The society's stated mission is to give every learner a study companion and to provide learning-method guidance for ordinary families in both rural and urban areas. The encyclopedia grew out of the same concern: AI knowledge was scattered and hard to trace, so the team set out to organize it into a public, verifiable, freely reusable knowledge base — not another AI tutoring product, but a source book that both people and agents can consult. Tang Haoyun led the Zi division, where each key criterion is tied to a locally reproduced numerical anchor with its script and environment recorded, so that "this is how it works" can be checked rather than taken on faith.
 
@@ -126,4 +133,4 @@ Skills published on ClawHub use MIT-0: free to use, modify and redistribute, inc
 Developed by **Shanghai Qiaoweilai Artificial Intelligence Technology Co., Ltd.**
 Chief editor: **AI Study Companion Team, Xuelai Xuequ Learning Society**
 Chief compiler: **Tang Zinian (唐资鉴)**
-Initiator and Zi-division lead: **Tang Haoyun (唐浩云 / Haoyun Xuezhang)**
+Initiator and Zi-division lead: **Tang Haoyun (唐浩云 / Haoyun Xuezhang)** — co-founder, Xuelai Xuequ Learning Society; founder, Shanghai Qiaoweilai AI Technology Co., Ltd.; technical lead, Feifei Banban; UCL Physics class of 2023 (graduating 2026)
