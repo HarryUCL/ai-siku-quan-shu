@@ -1,7 +1,7 @@
 ---
 name: ai-siku-quan-shu
-description: Offline full-text corpus and retrieval tool for 《AI四库全典》, a 48-volume, 2.559-million-character Chinese encyclopedia of artificial intelligence organized as 经/史/子/集. This skill should be used when a user asks about concepts, events, techniques, case studies, quotations, or chapter locations covered by AI四库全典, or requests cross-volume synthesis, source citations, or offline reading of the book. Provides ranked Chinese keyword search, chapter-level lookup, and a bundled zero-dependency web reader.
-version: 1.0.0
+description: Offline full-text corpus and retrieval tool for 《AI四库全典》, a 48-volume plus 2-part general-outline, 2.6216-million-character Chinese encyclopedia of artificial intelligence organized as 经/史/子/集. This skill should be used when a user asks about concepts, events, techniques, case studies, quotations, or chapter locations covered by AI四库全典, or requests cross-volume synthesis, source citations, or offline reading of the book. Provides ranked Chinese keyword search, chapter-level lookup, and a bundled zero-dependency web reader.
+version: 1.1.0
 agent_created: true
 metadata:
   openclaw:
@@ -11,7 +11,7 @@ metadata:
 
 # AI四库全典 · 全书检索与导读
 
-《AI四库全典》四部四十八卷、二百五十五万九千字人工智能百科的**离线全文语料 + 检索工具**。经部明道（哲学/科学根基）、史部鉴往（发展史/国别谱系）、子部载术（技术体系）、集部存用（行业落地/SOP）。全文已随技能打包，不需要联网、不需要向量数据库、不需要 API Key。
+《AI四库全典》四部四十八卷加总纲、签字定稿 2,621,610 中文字（约 262.16 万字）的人工智能百科的**离线全文语料 + 检索工具**。经部明道（哲学/科学根基）、史部鉴往（发展史/国别谱系）、子部载术（技术体系）、集部存用（行业落地/SOP）。全文已随技能打包，不需要联网、不需要向量数据库、不需要 API Key。
 
 ## 何时使用
 
@@ -42,15 +42,16 @@ metadata:
 
 ```
 SKILL.md                     使用说明
-references/catalog.md        全书目录：四部 48 卷 / 2571 节标题
+references/catalog.md        全书目录：四部 48 卷 / 388 章 / 2532 节
 scripts/search.py            零依赖全文检索（Python 标准库）
-assets/corpus/vol-001.md ... 48 卷正文（Markdown，卷首含部/卷/标题）
+assets/corpus/vol-001.md … vol-048.md 四部 48 卷定稿正文
+assets/corpus/zg-01.md / zg-02.md 总纲：全书细目目录与回引台账
 assets/corpus/manifest.json  卷 ID ↔ 中文卷名 / 字数 / 章节表
 assets/reader/                离线 WEB 阅读器：双击 index.html 即可阅读
-                              （全文分 4 片内嵌，无 CDN、无服务器）
+                              （修缮版 v1.2 定稿全文分 4 片内嵌，无 CDN、无服务器）
 ```
 
-卷号固定：经部 001–012、史部 013–024、子部 025–036、集部 037–048。
+卷号固定：经部 001–012、史部 013–024、子部 025–036、集部 037–048；总纲 zg-01 / zg-02。
 `assets/reader/` 中的 `index.html` 可直接用浏览器打开；支持目录、检索、批注、夜读、字号调节；AI 导读的书内检索模式完全离线可用。
 
 ## 精确匹配与批量处理
@@ -64,4 +65,4 @@ assets/reader/                离线 WEB 阅读器：双击 index.html 即可阅
 
 - 语料体量大，作答时只取所需片段，不要整卷输出。
 - 本书为 AI 学伴团编撰稿，引用时标明卷次与章节；对外引用需自行核对原文。
-- 语料为静态定稿版；若用户询问最新行业进展，先给书中内容，再说明书的成稿时点局限。
+- 语料为修缮版 v1.2 签字定稿：四部正文 2,609,342 字 + 总纲 12,268 字 = 2,621,610 字。若用户询问最新行业进展，先给书中内容，再说明成稿时点局限。
