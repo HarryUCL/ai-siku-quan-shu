@@ -6,7 +6,7 @@ agent_created: true
 metadata:
   openclaw:
     emoji: "📚"
-    homepage: https://github.com/sakeo/ai-siku-quan-shu
+    homepage: https://github.com/HarryUCL/ai-siku-quan-shu
 ---
 
 # AI四库全典 · 全书检索与导读
